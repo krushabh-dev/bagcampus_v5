@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bagcampus_v5/app/static/css/main.f3692fc7.chunk.css",
+    "main.js": "/bagcampus_v5/app/static/js/main.a2966115.chunk.js",
+    "main.js.map": "/bagcampus_v5/app/static/js/main.a2966115.chunk.js.map",
+    "runtime-main.js": "/bagcampus_v5/app/static/js/runtime-main.d9d969b4.js",
+    "runtime-main.js.map": "/bagcampus_v5/app/static/js/runtime-main.d9d969b4.js.map",
+    "static/js/2.bae3c167.chunk.js": "/bagcampus_v5/app/static/js/2.bae3c167.chunk.js",
+    "static/js/2.bae3c167.chunk.js.map": "/bagcampus_v5/app/static/js/2.bae3c167.chunk.js.map",
+    "index.html": "/bagcampus_v5/app/index.html",
+    "static/css/main.f3692fc7.chunk.css.map": "/bagcampus_v5/app/static/css/main.f3692fc7.chunk.css.map",
+    "static/js/2.bae3c167.chunk.js.LICENSE.txt": "/bagcampus_v5/app/static/js/2.bae3c167.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9d969b4.js",
+    "static/js/2.bae3c167.chunk.js",
+    "static/css/main.f3692fc7.chunk.css",
+    "static/js/main.a2966115.chunk.js"
+  ]
+}
