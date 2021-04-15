@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "homepage": "https://krushabh-dev.github.io/bagcampus_v5/app",
+  "homepage": "https://krushabh-dev.github.io/bagcampus_v5",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
