@@ -1,0 +1,78 @@
+.nav-item a{
+    color: #a7a7a7;
+}
+
+.nav-item a.nav-link:hover{
+    color: #26ae61;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: 800;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    /* color: #9a9a9a; */
+    color: #ffffff;
+    padding: 0 17px;
+    letter-spacing: .5px;
+    border-radius: 4px;
+    line-height: 37px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    background: 0 0;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+.button-group .button:hover {
+    color: #fff !important;
+    box-shadow: 0 7px 9px rgb(96 94 94 / 17%);
+}
+
+.button-group .button {
+    background: #26ae61;
+}
+
+.button-group .button {
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    position: relative;
+    outline: none !important;
+    background: #26ae61 !important;
+    color: #fff !important;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 21px !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 30px !important;
+    z-index: 1;
+    margin-top: 1px !important;
+}
+
+.nav-margin{
+    margin-top: 58px;
+}
+
+nav.navbar {
+    background: transparent;
+}
+
+.navbar-reduce {
+    transition: all .5s ease-in-out;
+    background-color: #1857f5 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
