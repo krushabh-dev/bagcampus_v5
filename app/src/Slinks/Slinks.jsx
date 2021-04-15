@@ -66,7 +66,7 @@ const Slinks = () => {
             <div class="col-lg-6">
               <img
                 src="Assets/undraw_Social_life_re_x7t5.svg"
-                class="img-fluid"
+                class="img-fluid social-icon"
                 alt="Social Media Link"
               />
             </div>
