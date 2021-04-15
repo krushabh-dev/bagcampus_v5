@@ -1,0 +1,31 @@
+@media (min-width: 768px) and (max-width: 1024px){ 
+#process h4 {
+    font-size: 15px;
+}
+#process {
+    margin: 15px 0;
+    padding: 15px;
+}
+
+#process {
+    padding: 0 30px;
+    text-align: center;
+}
+}
+
+#process h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#process .process-icon {
+    color: #26ae61;
+}
+
+#process .process-icon {
+    font-size: 48px;
+    color: #26ae61;
+    display: inline-block;
+    margin-bottom: 10px;
+}
