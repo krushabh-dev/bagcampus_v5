@@ -1,0 +1,28 @@
+.Social .Social-box {
+    padding: 24px 20px;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.Social .Social-box:hover i {
+    background: #4154f1;
+    color: #fff;
+}
+
+.Social .Social-box i {
+    line-height: 0;
+    background: #ecf3ff;
+    padding: 13px 8px;
+    margin-right: 10px;
+    font-size: 11px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.Social .Social-box h3 {
+    font-size: 18px;
+    color: #012970;
+    font-weight: 700;
+    margin: 0;
+}
