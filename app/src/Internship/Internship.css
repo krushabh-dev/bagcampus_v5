@@ -1,0 +1,150 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    #toppickjob .job-featured {
+        padding: 15px;
+    }
+} 
+
+#toppickjob .job-featured {
+    background: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 4px solid transparent;
+    box-shadow: 0 0 14px rgb(191 191 191 / 24%);
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+#toppickjob .job-featured:hover {
+    border-color: #26ae61;
+}
+
+#toppickjob .job-featured:hover {
+    border-color: #26ae61;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #toppickjob .job-featured {
+        padding: 15px;
+    }
+} 
+
+#toppickjob .job-featured , .card-box{
+    background: #fff;
+    height: 225px;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 4px solid transparent;
+    box-shadow: 0 0 14px rgb(191 191 191 / 24%);
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #toppickjob .job-featured .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+}
+
+#toppickjob .job-featured .icon {
+    float: left;
+    position: relative;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    box-shadow: 0 0 7px rgb(203 203 203 / 23%);
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #toppickjob .job-featured .content {
+        padding-left: 65px;
+    }
+} 
+
+#toppickjob .job-featured .content {
+    padding-left: 90px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){ 
+    #toppickjob .job-featured .content h3 {
+    font-size: 15px;
+}
+}
+#toppickjob .job-featured .content h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#toppickjob .job-featured .content .brand {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+#toppickjob .job-featured .content .tags {
+    margin-bottom: 15px;
+}
+
+.full-time,
+.part-time,
+.apply-btn {
+    font-size: 11px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.full-time {
+    color: var(--cyan);
+    background: #bce4ea;
+}
+
+.part-time {
+    color: #ff6046;
+    background: #ffd8d2;
+}
+
+.apply-btn {
+    color: #e6e9ec;
+    background: #2873c3;
+}
+
+.btn-common {
+    background-color: #26ae61;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-common {
+    background: #26ae61;
+    position: relative;
+    z-index: 1;
+}
