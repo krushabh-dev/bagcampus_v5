@@ -33,7 +33,7 @@ const Clist = [
       address: {
         "@type": "PostalAddress",
         streetAddress: "2nd Floor, Safina Towers",
-        addressLocality: "Opposite J.P. Techno Park",
+        addressLocality: "2nd Floor, Safina Towers",
         addressRegion: "KA",
         postalCode: "560052",
         addressCountry: "IN",
@@ -135,10 +135,10 @@ const Clist = [
       "@type": "Place",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "1600 Amphitheatre Pkwy",
-        addressLocality: "Mountain View",
+        streetAddress: "Intel Technology India Pvt. Ltd. - SRR 3",
+        addressLocality: "Outer Ring Road, Varthur Hobli, Bellandur, Bangalore",
         addressRegion: "KA",
-        postalCode: "560045",
+        postalCode: "560103",
         addressCountry: "IN",
       },
     },
@@ -241,6 +241,56 @@ const Clist = [
         streetAddress:
           "SEZ Unit, Cessna Business Park, Kadubeesanahalli Village, Hobli, Sarjapur",
         addressLocality: "Marathahalli, Bengaluru",
+        addressRegion: "KA",
+        postalCode: "560103",
+        addressCountry: "IN",
+      },
+    },
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: "USD",
+      value: {
+        "@type": "QuantitativeValue",
+        value: undefined,
+        unitText: "HOUR",
+      },
+    },
+  },
+
+  //id : 05
+
+  {
+    id: "05",
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    title: "Software Intern",
+    type: "Internship",
+    typeTag: "part-time",
+    description:
+      "Bluetooth and WiFi Systems Connectivity Integration and Validation Engineer Debugs software products through the use of systematic tests to develop apply and maintain quality standards for company products Develops",
+    identifier: {
+      "@type": "PropertyValue",
+      name: "Intel",
+      value: "1234567",
+    },
+    datePosted: "2021-04-15",
+    validThrough: "2021-05-13T00:00",
+    Location: "Bangalore",
+    ApplyLink: "https://jobs.intel.com/ShowJob/Id/2782187/Software%20Intern",
+    employmentType: "CONTRACTOR",
+    hiringOrganization: {
+      "@type": "Organization",
+      name: "Intel",
+      sameAs: "https://jobs.intel.com/",
+      logo:
+        "https://jobs.intel.com/Views/Client/d1fbe68e-ee7a-4d07-ba71-10c3e62672ab/images/intel-logo-black.png",
+    },
+    jobLocation: {
+      "@type": "Place",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Intel Technology India Pvt. Ltd. - SRR 3",
+        addressLocality: "Outer Ring Road, Varthur Hobli, Bellandur, Bangalore",
         addressRegion: "KA",
         postalCode: "560103",
         addressCountry: "IN",
