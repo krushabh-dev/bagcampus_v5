@@ -1,0 +1,16 @@
+.card-city-img{
+    width: 85px;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+}
+
+h5.card-title {
+    font-size: 20px;
+}
+
+.card-body {
+    padding: 7px 20px;
+}
