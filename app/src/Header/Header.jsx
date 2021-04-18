@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 
-const Header = () => {
+const Header = (props) => {
 
   const [Key, setKey] = useState("");
 
@@ -18,7 +18,7 @@ const Header = () => {
             <div className="col-md-10">
               <div className="heading text-center pb-4">
                 <h2 className="mt-4" data-aos="fade-up">
-                  Let's Explore Great Opportunities
+                  Let's Explore Great {props.tagline}
                 </h2>
                 <p className="mb-2" data-aos="fade-up" data-aos-delay="400">
                   Grab The Best Opportunities With Bagcampus
