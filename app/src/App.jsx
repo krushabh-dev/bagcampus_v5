@@ -9,20 +9,24 @@ import Scount from './Count/Scount';
 import Slinks from './Slinks/Slinks';
 import Blog from './Blog/Blog';
 import Internships from './Internship/Internships';
+import Footer from './Footer/Footer';
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <Header />
-      <TrendingNow />
-      <Category />
-      {/* <TopPick /> */}
-      <Internships />
-      <Scount />
-      <Process />
-      <Slinks />
-      <Blog />
+      <section id="Home_Page">
+        <Nav />
+        <Header tagline="Opportunities" />
+        <TrendingNow />
+        <Category />
+        {/* <TopPick /> */}
+        <Internships />
+        <Scount />
+        <Process />
+        <Slinks />
+        <Blog />
+        <Footer />
+      </section>
     </>
   );
 }
