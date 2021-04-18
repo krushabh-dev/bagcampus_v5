@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Nav.css'
 
 const Nav = () => {
@@ -17,45 +18,52 @@ const Nav = () => {
           >
             <i className="fa fa-chevron-circle-down"></i>
           </button>
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="/">
             Bagcampus
-          </a>
+          </NavLink>
         </div>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/">
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/internship">
                 Intenships
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/jobs">
                 Jobs
-              </a>
+              </NavLink>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+
+            {/* <li className="nav-item">
+              <NavLink className="nav-link" to="/scholarship">
                 Scholarship
-              </a>
-            </li>
+              </NavLink>
+            </li> */}
+
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/">
                 Career
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/blog">
                 Blog
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="sign">
           <div className="nav-item active button-group mx-md-3">
-            <a className="nav-link sign-btn button btn-common" href="#header">
+            <NavLink className="nav-link sign-btn button btn-common" to="/sign">
               SignIn
-            </a>
+            </NavLink>
           </div>
         </div>
       </nav>
