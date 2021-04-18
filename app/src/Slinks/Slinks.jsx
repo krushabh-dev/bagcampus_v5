@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from '../Heading';
 import "./Css.css";
+import logo from "../Assets/undraw_Social_life_re_x7t5.svg";
 
 const Data = [
   {
@@ -65,7 +66,7 @@ const Slinks = () => {
             <Heading title="Find Us On Following Platforms" />
             <div class="col-lg-6">
               <img
-                src="Assets/undraw_Social_life_re_x7t5.svg"
+                src={logo}
                 class="img-fluid social-icon"
                 alt="Social Media Link"
               />
