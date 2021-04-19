@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "homepage": "http://test.bagcampus.in/",
+  "homepage": "https://test.bagcampus.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
