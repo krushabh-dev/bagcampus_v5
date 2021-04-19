@@ -22,7 +22,7 @@
     background: #fff;
     padding: 20px;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: block;
     margin-right: -1px;
 }
@@ -69,4 +69,24 @@
 
 .f-category:hover {
     background: #f9fcff;
+}
+
+/* 
+ */
+
+.spl-box{
+    margin-left: 15px;
+}
+
+@media (max-width: 992px){
+    .rsm-scroll{
+        width: 90%;
+        box-sizing: initial;
+        padding: 15px;
+        margin: 0 -15px;
+        flex-wrap: inherit;
+        overflow-x: scroll;
+        flex-flow: row !important;
+        display: flex;
+    }
 }
