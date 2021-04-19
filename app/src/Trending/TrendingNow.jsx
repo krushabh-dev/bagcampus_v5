@@ -53,14 +53,13 @@ const TrendingNow = () => {
     <>
       <div className="container">
         <div className="row justify-content-center">
-          <Heading
-            title="Top Cities To Work"
-            para=""
-          />
-          {Trend(Trend_Detail[0])}
-          {Trend(Trend_Detail[1])}
-          {Trend(Trend_Detail[2])}
-          {Trend(Trend_Detail[3])}
+          <Heading title="Top Cities To Work" para="" />
+          <div className="row rsm-scroll">
+            {Trend(Trend_Detail[0])}
+            {Trend(Trend_Detail[1])}
+            {Trend(Trend_Detail[2])}
+            {Trend(Trend_Detail[3])}
+          </div>
         </div>
       </div>
     </>
