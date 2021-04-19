@@ -11,13 +11,13 @@ const RouteMain = () => {
   return (
     <>
       <Switch>
-        <Route exact path="bagcampus_v5/internship" component={InternshipSearch} />
-        <Route exact path="bagcampus_v5/jobs" component={jobSearch} />
+        <Route exact path="/internship" component={InternshipSearch} />
+        <Route exact path="/jobs" component={jobSearch} />
         {/* <Route exact path="/scholarship" component={InternshipSearch} /> */}
-        <Route exact path="bagcampus_v5/" component={App} />
-        <Route exact path="bagcampus_v5/blog" component={BlogMain} />
-        <Route exact path="bagcampus_v5/sign" component={SignUp} />
-        <Route exact path="bagcampus_v5/log" component={LogIn} />
+        <Route exact path="/" component={App} />
+        <Route exact path="/blog" component={BlogMain} />
+        <Route exact path="/sign" component={SignUp} />
+        <Route exact path="/log" component={LogIn} />
       </Switch>
     </>
   );
