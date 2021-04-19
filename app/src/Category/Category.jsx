@@ -57,7 +57,7 @@ const Card = (prop) => {
   return (
     <>
       <div
-        className="col-lg-3 col-md-6 col-xs-5 col-5 f-category card-body"
+        className="col-lg-3 col-md-6 col-xs-5 col-7 f-category card-body spl-box"
         data-aos="fade-up"
       >
         <div className="card">
@@ -80,17 +80,18 @@ const Category = () => {
     <>
       <section id="category">
         <div className="container" data-aos="fade-up">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center d-flex">
             <Heading title="Browse Categories" para="Explore Top categories" />
-
-            {Card(List[0])}
-            {Card(List[1])}
-            {Card(List[2])}
-            {Card(List[3])}
-            {Card(List[4])}
-            {Card(List[5])}
-            {Card(List[6])}
-            {Card(List[7])}
+            <div className="row rsm-scroll">
+              {Card(List[0])}
+              {Card(List[1])}
+              {Card(List[2])}
+              {Card(List[3])}
+              {Card(List[4])}
+              {Card(List[5])}
+              {Card(List[6])}
+              {Card(List[7])}
+            </div>
           </div>
         </div>
       </section>
