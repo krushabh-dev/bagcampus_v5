@@ -1,13 +1,28 @@
 import React, { useState } from "react";
 import "./header.css";
+ import Search from "./Search";
 
 const Header = (props) => {
 
-  const [Key, setKey] = useState("");
+  const [Key, setKey] = useState({
+    title: "",
+    location: "",
+  });
 
   const keyInputEvent = (prop) => {
     const data = prop.target.value;
-    setKey(data);
+    const tname = prop.target.name;
+
+    setKey((prevValue) => {
+      // console.log(prevValue);
+      console.log(tname + " : " +data);
+
+      return {
+        ...prevValue,
+        [tname]: data,
+      };
+    });
+
   };
 
   return (
@@ -34,10 +49,14 @@ const Header = (props) => {
                       type="text"
                       className="form-control"
                       id="inlineFormInputName"
+                      name="title"
                       placeholder="Title, Keyword, Skill, etc."
-                      value={Key}
+                      value={Key.title}
                       onChange={keyInputEvent}
                     />
+                    <div className="search-icon">
+                      <i className="fas fa-search"></i>
+                    </div>
                   </div>
                   <div className="col-sm-3 my-1">
                     <label className="sr-only">Location</label>
@@ -48,8 +67,11 @@ const Header = (props) => {
                       <input
                         type="text"
                         className="form-control"
+                        name="location"
                         id="inlineFormInputGroupUsername"
                         placeholder="Location"
+                        value={Key.location}
+                        onChange={keyInputEvent}
                       />
                     </div>
                   </div>
@@ -75,6 +97,7 @@ const Header = (props) => {
                   </div>
                 </div>
               </form>
+              <Search title={Key.title} location={Key.location} />
             </div>
             {/* { Key === "" ? null : {ShowLine} } */}
           </div>
