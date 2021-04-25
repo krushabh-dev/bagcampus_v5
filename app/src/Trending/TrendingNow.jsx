@@ -36,7 +36,7 @@ const Trend = (prop) => {
     <>
       <div className="col-md-3 col-6" data-aos="fade-up">
         <div class="card mb-3">
-          <div class="card">
+          <div class="card city-card">
             <img src={prop.imgSrc} class="card-img-top card-city-img" alt={prop.alt} width="50px" />
             <div class="card-body">
               <h5 class="card-title">{prop.title}</h5>
