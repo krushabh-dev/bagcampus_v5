@@ -76,3 +76,22 @@ nav.navbar {
     padding-top: 15px !important;
     padding-bottom: 15px !important;
 }
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        color: #343a40 !important;
+        font-weight: 800;
+    }
+    .navbar-reduce {
+        background: #fff !important;
+        padding: 15px 5px;
+        box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    }
+    div#navbarSupportedContent {
+        background: white;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1.7rem;
+        color: #012970 !important;
+    }
+}
