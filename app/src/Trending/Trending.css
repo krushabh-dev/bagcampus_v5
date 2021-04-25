@@ -14,3 +14,7 @@ h5.card-title {
 .card-body {
     padding: 7px 20px;
 }
+
+.city-card {
+    background-color: transparent !important;
+}
