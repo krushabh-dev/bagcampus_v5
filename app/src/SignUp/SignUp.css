@@ -97,3 +97,9 @@ section#SignIn {
         padding: 10px 10px;
     }
 }
+
+.toast-main{
+    z-index: 5;
+    right: 0;
+    bottom: 0;
+}
