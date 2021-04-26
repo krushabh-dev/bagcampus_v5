@@ -3,10 +3,10 @@ import React from "react";
 const Display = (props) => {
   return (
     <>
-      <div className="col-lg-4 col-md-6 col-xs-12" data-aos="fade-up">
+      <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12" data-aos="fade-up">
         <div className="job-featured">
           <div className="icon">
-            <img src={props.logo} class="img-fluid"  alt="" />
+            <img src={props.logo} class="img-fluid" alt="" />
           </div>
           <div className="content">
             <h3>
