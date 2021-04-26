@@ -43,7 +43,7 @@ const Header = (props) => {
             <div className="col-md-10" data-aos="fade-up" data-aos-delay="800">
               <form>
                 <div className="form-row align-items-center search-form justify-content-center text-center">
-                  <div className="col-sm-3 my-1">
+                  <div className="col-md-3 my-1">
                     <label className="sr-only">Title</label>
                     <input
                       type="text"
@@ -58,7 +58,7 @@ const Header = (props) => {
                       <i className="fas fa-search"></i>
                     </div>
                   </div>
-                  <div className="col-sm-3 my-1">
+                  <div className="col-md-3 my-1">
                     <label className="sr-only">Location</label>
                     <div className="input-group">
                       <div className="input-group-prepend">
