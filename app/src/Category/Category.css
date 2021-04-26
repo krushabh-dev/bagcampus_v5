@@ -74,11 +74,7 @@
 /* 
  */
 
-.spl-box{
-    margin-left: 15px;
-}
-
-@media (max-width: 992px){
+@media (max-width: 767.99px){
     .rsm-scroll{
         width: 90%;
         box-sizing: initial;
@@ -88,5 +84,11 @@
         overflow-x: scroll;
         flex-flow: row !important;
         display: flex;
+    }
+}
+
+@media (max-width: 767.99px){
+    .spl-box {
+        margin-left: 15px;
     }
 }
